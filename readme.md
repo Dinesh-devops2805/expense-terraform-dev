@@ -1,1 +1,0 @@
-file:///C:/Users/91911/OneDrive/Desktop/DevOps_with_AWS/diagrams/Terraform/expense-project%20VPC%20overview(day-33).svg
