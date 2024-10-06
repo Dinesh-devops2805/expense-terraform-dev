@@ -5,7 +5,7 @@ module "mysql" {
   name                   = "${local.resource_name}-mysql" # expense-dev-mysql
   instance_type          = "t3.micro"
   vpc_security_group_ids = [local.mysql_sg_id]
-  # And the value for it is subnet-0579eb5e4ec20d64e (this we can find in AWS -> systems manager 
+  # And the value for it is sg-0579eb5e4ec20d64e (this we can find in AWS -> systems manager 
   # -> paramater store -> in /expense/dev/mysql_sg_id)
   subnet_id = local.database_subnet_id # subnet-0579eb5e4ec20d64e
 
